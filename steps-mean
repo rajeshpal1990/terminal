@@ -1,0 +1,71 @@
+
+/* install express */
+
+npm init
+npm install express --save
+
+
+/* run package.json*/
+
+npm install
+
+
+/ * Kill the port */
+
+sudo kill $(sudo lsof -t -i:3001)
+
+/ * forever run */
+
+forever start app.js
+
+
+/* Angular build */
+
+ng generate component {component name }
+
+
+/* Create Modules * /
+
+ng g module newModule to generate a module,
+cd newModule to change directory into the newModule folder
+ng g component newComponent to create a component as a child of the module.
+
+/* buid */
+
+ng build --env=prod  --base-href /project/bodyscanapp/admin/
+
+/* for run*/
+
+node app/aap.js
+
+nodemon (auto load)
+
+
+/* Install modules */
+
+1 . md5 
+
+npm install generate-password --save
+
+
+/* [nodemon] Internal watch failed: watch /var/www/html/bodyscanapp/api ENOSPC */
+
+echo fs.inotify.max_user_watches=582222 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+
+
+/ * File Upoad */
+
+https://gist.github.com/aitoribanez/8b2d38601f6916139f5754aae5bcc15f
+https://medium.com/@ahmedhamedTN/multiple-files-upload-with-angular-2-express-and-multer-1d951a32a1b3
+
+/* change the port  */
+
+ng serve --port 4401    
+
+
+/* status of port id*/
+
+netstat -tulnp
+
+
+

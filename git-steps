@@ -1,0 +1,33 @@
+/* Git */
+
+git init 
+
+/* clone */
+
+git clone https://github.com/rajeshpal1990/node.git
+
+/* add */
+
+git add (. for all otherwise filename)
+
+/* Git status */
+
+git status 
+
+/*  branch */
+
+git checkout -b branchname (for create)
+
+git checkout branchname (for switch) 
+
+/* commit */
+
+git commit -m "message " (filename with space )
+
+/* push */
+
+git push origin branchname 
+
+/*pull  */
+
+git pull origin branchname 
